@@ -1,0 +1,31 @@
+Inicio
+	ligar lampada no interruptor;
+	se lampada não ligar;
+		repita até 5 vezes;
+			pegar uma escada;
+			posicionar a escada embaixo dela;
+			subir na escada;
+			verificar mal contato;
+			
+			
+			se não há mal contato;
+				descer da escada;
+				buscar uma lampada nova;
+				subir na escada;
+				retirar lampada velha;
+				colocar lampada nova;
+				descer da escada;
+				ligar lampada;
+			fimSe
+      
+			se lampada ligar;
+			
+				parar o processo;
+				
+			fimSe
+			
+		fimrepita
+		
+  fimSe
+  
+Fim
