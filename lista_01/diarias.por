@@ -8,7 +8,7 @@ programa
 		escreva("Digite a quantidade de diarias do trabalhador: ")
 		leia(diarias)
 
-		salario = (diarias * 20)*92/100
+		salario = diarias * 20 * 0.92
 
 		escreva("O trabalhador receberá " + salario + " em dinheiro")
 	}
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 237; 
+ * @POSICAO-CURSOR = 148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

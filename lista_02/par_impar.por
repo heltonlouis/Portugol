@@ -3,16 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		real numero, dobro, triplo
-		escreva("Digite um numero, positivo ou negativo: ")
+		inteiro numero
+		escreva("Escreva um número qualquer: ")
 		leia(numero)
 		
-		se (numero > 0){
-			dobro = numero * 2
-			escreva("O dobro de " + numero + " é " + dobro)
+		se (numero % 2 == 0) {
+			escreva(numero, " é um número é PAR")
 		} senao {
-			triplo = numero * 3
-			escreva("O triplo de " + numero + " é " + dobro)
+			escreva(numero, " é um  número é IMPAR")
 		}
 	}
 }
@@ -21,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 287; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

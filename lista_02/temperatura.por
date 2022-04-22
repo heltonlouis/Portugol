@@ -8,15 +8,15 @@ programa
 		leia(temperatura)
 		
 		se (temperatura <= 15) {
-			escreva("Está muito frio")
+			escreva("Hoje o clima está muito frio")
 		} senao se (temperatura <= 23 ){
-			escreva("Está frio")
+			escreva("Hoje o clima está frio")
 		} senao se (temperatura <= 26 ){
-			escreva("Está agradável")
+			escreva("Hoje o clima está agradável")
 		} senao se (temperatura <= 30 ){
-			escreva("Está calor")
+			escreva("Hoje o clima está calor")
 		}senao {
-			escreva("Está muito quente")
+			escreva("Hoje o clima está muito quente")
 		}
 	}
 }
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 397; 
+ * @POSICAO-CURSOR = 440; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
